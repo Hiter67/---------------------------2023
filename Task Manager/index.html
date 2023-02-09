@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Менеджер задач</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Менеджер задач</h1>
+  </header>
+  <main>
+    <div id="task-form">
+      <input type="text" id="task-input" placeholder="Добавить задачу">
+      <button id="add-task-btn">Добавить задачу</button>
+    </div>
+    <div id="task-filter">
+      <button id="filter-all">Все</button>
+      <button id="filter-active">Активные</button>
+      <button id="filter-completed">Выполненные</button>
+    </div>
+    <ul id="task-list"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

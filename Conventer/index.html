@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Конвертер систем исчисления</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>Конвертер систем исчисления</h1>
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" type="number" id="input-num" placeholder="Число">
+			</div>
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" type="number" id="from-base" placeholder="Из какой">
+			</div>
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" type="number" id="to-base" placeholder="В какую">
+			</div>
+			<button id="convert-btn" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Конвертировать</button>
+			<p id="output"></p>
+		</div>
+		<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
